@@ -117,7 +117,10 @@
   .btn-dark:hover { background: #FFFFFF; transform: translateY(-2px); box-shadow: 0 0 48px rgba(239,159,39,0.5); }
   .btn-outline-dark { background: transparent; color: var(--white); padding: 18px 40px; border: 2px solid rgba(239,159,39,0.4); border-radius: 20px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 500; cursor: pointer; transition: all 0.25s; text-decoration: none; display: inline-block; }
   .btn-outline-dark:hover { border-color: var(--yellow); color: var(--yellow); background: rgba(239,159,39,0.05); }
-  footer { background: #1E1A12; border-top: 1px solid #3A2E1C; padding: 48px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+  footer { background: #1E1A12; border-top: 1px solid #3A2E1C; padding: 48px; display: flex; align-items: center; }
+  footer > * { flex: 1; }
+  footer p.footer-copyright { text-align: center; }
+  footer p.footer-address { text-align: right; }
   .footer-logo { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--yellow); }
   footer p { font-size: 12px; color: #BFA882; }
 
@@ -305,5 +308,6 @@ benefits.</p></div></div>
 
 <footer>
   <div class="footer-logo">CORDA</div>
-  <p>© 2026 Corda Networks. All rights reserved.</p>
-  <p style="color:#5A4520">6600 Chase Oaks Blvd. #150 &nbsp;·&nbsp; Plano, TX 75023</p></footer></body></html>
+  <p class="footer-copyright">© 2026 Corda Networks. All rights reserved.</p>
+  <p class="footer-address" style="color:#5A4520">6600 Chase Oaks Blvd. #150 &nbsp;·&nbsp; Plano, TX 75023</p>
+</footer></body></html>
