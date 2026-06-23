@@ -90,10 +90,10 @@
   .step-title { font-family: 'Playfair Display', serif; font-size: 20px; margin-bottom: 10px; }
   .step-body { font-size: 13px; color: #5A4520; line-height: 1.6; }
 
-  #revenue { position: relative; overflow: hidden; }
-  #revenue::before { content: ''; position: absolute; top: 0; right: 0; width: 50%; height: 100%; background: radial-gradient(ellipse at 100% 50%, rgba(239,159,39,0.06), transparent 70%); }
-  .revenue-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-  .revenue-cards { display: flex; flex-direction: column; gap: 16px; }
+  #program { position: relative; overflow: hidden; }
+  #program::before { content: ''; position: absolute; top: 0; right: 0; width: 50%; height: 100%; background: radial-gradient(ellipse at 100% 50%, rgba(239,159,39,0.06), transparent 70%); }
+  .program-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+  .program-cards { display: flex; flex-direction: column; gap: 16px; }
   .rev-card { background: #FFFFFF; border: 1px solid #E8DDD0; box-shadow: 0 2px 12px rgba(0,0,0,0.05); border-radius: 12px; padding: 24px 28px; display: flex; align-items: center; gap: 20px; transition: border-color 0.2s; }
   .rev-card:hover { border-color: var(--green); }
   .rev-card-icon { font-size: 28px; }
@@ -152,7 +152,7 @@
   <ul>
     <li><a href="#benefits">Benefits</a></li>
     <li><a href="#guest-journey">How It Works</a></li>
-    <li><a href="#revenue">The Details</a></li>
+    <li><a href="#program">The Details</a></li>
     <li><a href="mailto:hello@cordanetworks.com?subject=Kiosk%20Request" class="nav-cta">Get a Kiosk</a></li>
   </ul>
 </nav>
@@ -163,7 +163,7 @@
   <div class="hero-left">
     <div class="hero-eyebrow">The amenity that anticipates what visitors need</div>
     <h1>72% OF YOUR<br>VISITORS<br>ARE <span class="accent">ANXIOUS</span><br>ABOUT THEIR<br><span class="accent-green">BATTERY.</span></h1>
-    <p class="hero-sub">The best venues solve problems before visitors have to ask. Corda helps you do that, at no cost to your venue or your visitors.</p>
+    <p class="hero-sub">The best venues solve problems before visitors have to ask. Corda helps you do that — as a fully sponsored amenity, at no cost to your venue or your visitors.</p>
     <div class="hero-actions">
       <a href="#cta" class="btn-primary">Request a Kiosk</a>
       <a href="#guest-journey" class="btn-ghost">See How It Works</a>
@@ -183,7 +183,7 @@
   <div class="stat-item"><div class="stat-big">72%</div><div class="stat-desc">of visitors experience battery anxiety away from home</div><div class="stat-source">Global Growth Insights, 2025</div></div>
   <div class="stat-item"><div class="stat-big">1 in 3</div><div class="stat-desc">consumers have left a venue earlier than planned due to a low battery</div><div class="stat-source">Deloitte Global Mobile Consumer Survey</div></div>
   <div class="stat-item"><div class="stat-big">3×</div><div class="stat-desc">more likely — visitors cite unexpected helpful amenities unprompted in reviews</div><div class="stat-source">ReviewTrackers Hospitality Benchmark Report</div></div>
-  <div class="stat-item"><div class="stat-big">$0</div><div class="stat-desc">Cost to your venue<br>or your visitors</div><div class="stat-source">Sponsor-funded model</div></div>
+  <div class="stat-item"><div class="stat-big">$0</div><div class="stat-desc">Cost to your venue<br>or your visitors</div></div>
 </div>
 
 <section id="benefits">
@@ -218,9 +218,8 @@ will never be asked to manage it, explain it, or fix it. The kiosk is
 simply there — working quietly in the background while your team focuses
  on visitor experience.</div></div>
     <div class="benefit-card"><div class="benefit-icon">💰</div><div class="benefit-title">Free for Your Venue. Free for Your Visitors.</div><div class="benefit-body">Corda
- is funded entirely by corporate sponsors who pay to reach engaged 
-visitors at the moment they need it most. That covers the hardware, 
-installation, and ongoing service. You just provide the space.</div></div>
+ is made possible through a sponsorship program. That covers the hardware,
+ installation, and ongoing service — your venue pays nothing, and neither do your visitors. You just provide the space.</div></div>
   </div>
 </section>
 
@@ -257,7 +256,7 @@ app, no account — the deposit is refunded automatically when the power
 bank is returned.</div>
         <div class="infographic-detail-item">Power banks include all major cable types, so every visitor is covered regardless of device.</div>
         <div class="infographic-detail-item">Returns are made at any Corda kiosk — visitors aren't tied to the one they rented from.</div>
-        <div class="infographic-detail-item">Everything is covered by sponsors — your venue pays nothing, and neither do your visitors.</div>
+
       </div>
     </div>
     <div class="infographic-frame">
@@ -267,14 +266,14 @@ bank is returned.</div>
   </div>
 </div></section>
 
-<section id="revenue">
-  <div class="revenue-grid">
+<section id="program">
+  <div class="program-grid">
     <div>
       <div class="section-tag">The full picture</div>
       <h2>GOOD FOR VISITORS.<br>GOOD FOR <span class="y">YOUR TEAM.</span></h2>
       <p class="section-lead">The benefits of Corda show up in ways that matter most — in how visitors feel, how staff work, and how your venue is remembered.</p>
     </div>
-    <div class="revenue-cards">
+    <div class="program-cards">
       <div class="rev-card"><div class="rev-card-icon">⏱️</div><div class="rev-card-text"><h4>Visitors Who Stay Longer</h4><p>Battery
  anxiety is one of the most common reasons people cut visits short. When
  Corda removes that clock from the equation, visitors linger longer, 
@@ -290,7 +289,7 @@ reviews, tags. That kind of organic visibility from engaged visitors is
 worth more than a paid impression, and Corda creates the conditions for 
 it every day.</p></div></div>
       <div class="rev-card"><div class="rev-card-icon">💰</div><div class="rev-card-text"><h4>Zero Cost. Fully Funded.</h4><p>Corda
- is underwritten entirely by corporate sponsors. No fees to your venue, 
+ is made possible through a sponsorship program. No fees to your venue, 
 no charges to your visitors — the kiosk simply works, and everyone 
 benefits.</p></div></div>
     </div>
